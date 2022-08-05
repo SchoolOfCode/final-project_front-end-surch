@@ -9,10 +9,38 @@ export default function Gratitude(){
     const [gratitude, setGratitude] = useState("");
     const [textGratitude, setTextGratitude]= useState("")
 
+    //Will need a get request to get latest entry and display on screen.
+    //setGratitude will then be rendered on the page with the date
+    /*
+    const fetchGratitude = async () => {
+        try{
+            let url = backendURL/latest entry
+            let response = await fetch(url)
+            let data = response.json();
+            setGratitude(data.text)
+            setDate(data.date)
+            //need to check shape of the response object first
+            //with console.logs.
+        }
+    }
+    */
+
     function handleClick(e){
         console.log(textGratitude);
         //post/put request to database to add to gratitude table
-
+        /*
+        fetch('http://localhost:3002/login', {
+        method: "POST",
+        headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json"
+            },
+        body: JSON.stringify({
+            username: "foo",
+            password: "bar"
+            })
+        });
+        */
     }
 
     function handleChange(e){

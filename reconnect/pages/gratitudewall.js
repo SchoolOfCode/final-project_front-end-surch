@@ -8,7 +8,7 @@ import {useState} from "react"
 export default function gratitudewall() {
     const [gratitude, setGratitude] = useState("");
     const [textGratitude, setTextGratitude]= useState("")
-
+    
     function handleClick(e){
         console.log(textGratitude);
         //post/put request to database to add to gratitude table
