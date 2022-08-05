@@ -129,6 +129,10 @@
   flex-direction: column;
   align-items: center;
 }
+.moodStateContainer:hover {
+  outline: 4px solid #244e7a;
+  background-color: #cbe2ef;
+}
 
 /*Start of main page gratitude styling*/
 .gratitudeContainer {
