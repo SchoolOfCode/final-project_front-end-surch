@@ -56,7 +56,7 @@ export default function Home() {
           <ExploreCard url={"https://www.nhs.uk/mental-health/self-help/tips-and-support/how-to-be-happier/"} title={"Increase Happiness"}/>
           </div>
           <div className={styles.healthyMeals}>
-          <ExploreCard url={"https://www.bbcgoodfood.com/recipes/collection/quick-and-healthy-recipes"} title={"Quick Healthy Meals"}/>
+          <ExploreCard url={"https://www.bbcgoodfood.com/recipes/collection/quick-and-healthy-recipes"} title={"Healthy Meals"}/>
           </div>
         </div>
 

@@ -130,8 +130,7 @@
   align-items: center;
 }
 .moodStateContainer:hover {
-  outline: 4px solid #244e7a;
-  background-color: #cbe2ef;
+  outline: 4px dashed #244e7a;
 }
 
 /*Start of main page gratitude styling*/
